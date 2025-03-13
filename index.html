@@ -27,8 +27,6 @@
     </style>
   </head>
   <body class="font-poppins">
-    <!-- <center><h1 class="bg-slate-500 h-20 p-7 text-white font-bold">daisyUI</h1></center> -->
-
     <!-- header -->
     <!-- max-w-screen-xl mx-auto -->
     <header class="md:container lg:max-w-screen-xl mx-auto mt-5">
@@ -36,8 +34,9 @@
         <div class="navbar">
           <div class="flex flex-1">
             <div class="dropdown">
-              <div tabindex="0" role="button" class="btn lg:hidden">
-                <svg
+              <div tabindex="0" role="button" class="btn p-0 bg-transparent border-transparent shadow-none lg:hidden">
+                <img class="h-20" src="images/horse/horse-icon.png" alt="">
+                <!-- <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5"
                   fill="none"
@@ -50,7 +49,7 @@
                     stroke-width="2"
                     d="M4 6h16M4 12h8m-8 6h16"
                   />
-                </svg>
+                </svg> -->
               </div>
               <ul
                 tabindex="0"
@@ -62,7 +61,9 @@
                 <li><a>News</a></li>
               </ul>
             </div>
-            <a class="btn text-xl shadow-none">bikerZone</a>
+            <a class="text-3xl text-gray-700 font-bold shadow-none"
+              >bikerZone</a
+            >
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
@@ -73,19 +74,22 @@
             </ul>
           </div>
           <div class="">
-            <a class="btn bg-red-500 font-bold text-white ml-7">Login</a>
+            <a class="btn bg-red-800 hover:bg-orange-700 font-bold text-white ml-7">Login</a>
           </div>
         </div>
       </nav>
       <!-- Carousel -->
-      <div class="mt-5 h-[550px] bg-slate-100">
+      <div class="mt-5 md:h-[550px] bg-slate-100">
         <div class="carousel w-full">
           <!-- slid-1 -->
           <div id="slide1" class="carousel-item relative w-full">
             <div class="flex gap-20 flex-col md:flex-row p-24">
               <!-- txt content -->
-              <div class="space-y-4 flex-1 pl-10  flex justify-center flex-col">
-                <h1 class="font-bold text-4xl text-gray-700">Ride-on R15 V4 <br> with Smile</h1>
+              <div class="space-y-4 flex-1 pl-10 flex justify-center flex-col">
+                <h1 class="font-bold text-4xl text-gray-700">
+                  Ride-on R15 V4 <br />
+                  with Smile
+                </h1>
                 <p class="text-gray-600">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                   amet sint. Velit officia consequat duis enim velit mollit.
@@ -111,8 +115,11 @@
           <div id="slide2" class="carousel-item relative w-full">
             <div class="flex gap-20 flex-col md:flex-row p-24">
               <!-- txt content -->
-              <div class="space-y-4 flex-1 pl-10  flex justify-center flex-col">
-                <h1 class="font-bold text-4xl text-gray-700">Ride-on R15 V4 <br> with Smile</h1>
+              <div class="space-y-4 flex-1 pl-10 flex justify-center flex-col">
+                <h1 class="font-bold text-4xl text-gray-700">
+                  Ride-on R15 V4 <br />
+                  with Smile
+                </h1>
                 <p class="text-gray-600">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                   amet sint. Velit officia consequat duis enim velit mollit.
@@ -133,13 +140,16 @@
               <a href="#slide3" class="btn btn-circle">❯</a>
             </div>
           </div>
-          
+
           <!-- slide-3 -->
           <div id="slide3" class="carousel-item relative w-full">
             <div class="flex gap-20 flex-col md:flex-row p-24">
               <!-- txt content -->
-              <div class="space-y-4 flex-1 pl-10  flex justify-center flex-col">
-                <h1 class="font-bold text-4xl text-gray-700">Ride-on R15 V4 <br> with Smile</h1>
+              <div class="space-y-4 flex-1 pl-10 flex justify-center flex-col">
+                <h1 class="font-bold text-4xl text-gray-700">
+                  Ride-on R15 V4 <br />
+                  with Smile
+                </h1>
                 <p class="text-gray-600">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                   amet sint. Velit officia consequat duis enim velit mollit.
@@ -165,8 +175,11 @@
           <div id="slide4" class="carousel-item relative w-full">
             <div class="flex gap-20 flex-col md:flex-row p-24">
               <!-- txt content -->
-              <div class="space-y-4 flex-1 pl-10  flex justify-center flex-col">
-                <h1 class="font-bold text-4xl text-gray-700">Ride-on R15 V4 <br> with Smile</h1>
+              <div class="space-y-4 flex-1 pl-10 flex justify-center flex-col">
+                <h1 class="font-bold text-4xl text-gray-700">
+                  Ride-on R15 V4 <br />
+                  with Smile
+                </h1>
                 <p class="text-gray-600">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                   amet sint. Velit officia consequat duis enim velit mollit.
@@ -187,13 +200,124 @@
               <a href="#slide1" class="btn btn-circle">❯</a>
             </div>
           </div>
-         
         </div>
       </div>
     </header>
 
     <!-- main section -->
-    <main class="md:container mx-auto mt-5"></main>
+    <main class="md:container mx-auto mt-5 lg:max-w-screen-xl">
+      <!-- feature bike -->
+      <div class="mt-20 mb-20">
+        <!-- txt part -->
+        <div class="flex sm:flex-col items-center justify-center">
+          <div>
+            <h1 class="font-bold text-3xl text-red-700">
+              Feature Bikes in This Year
+            </h1>
+            <p class="flex pt-3 font-semibold text-gray-600 justify-center">
+              best bike Collection
+            </p>
+          </div>
+        </div>
+        <!-- img part -->
+        <div
+          class="flex flex-col sm:justify-center items-center md:flex-row justify-between"
+        >
+          <div class="96">
+            <img
+              class="w-96 h-72 object-contain"
+              src="images/others/bike-h1.png"
+              alt=""
+            />
+          </div>
+          <div class="w-96">
+            <img
+              class="w-96 h-72 object-contain"
+              src="images/others/bike-h2.png"
+              alt=""
+            />
+          </div>
+          <div class="w-96">
+            <img
+              class="w-96 h-72 object-contain"
+              src="images/others/bike-h3.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- News Section -->
+
+      <div class="space-y-10">
+        <!-- txt part -->
+        <div class="flex sm:flex-col items-center justify-center">
+          <div>
+            <h1 class="font-bold text-3xl text-gray-700">Latest News</h1>
+            <p class="flex pt-3 font-semibold text-gray-600 justify-center">
+              latest news & updates
+            </p>
+          </div>
+        </div>
+
+        <!-- card part -->
+        <div class=" mb-10 flex flex-col justify-center items-center md:flex-row gap-5 md:justify-between">
+
+          <!-- 1st card -->
+          <div class="card bg-base-100 w-96 shadow-sm">
+            <figure>
+              <img src="images/others/latest2.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-green-900">Motorcycle</h2>
+              <p>
+                A card component has a figure, a body part, and inside body
+                there are title and actions parts
+              </p>
+              <div class="card-actions justify-start">
+                <button class="btn btn-primary bg-white border-orange-400 text-orange-500">Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2nd card -->
+          <div class="card bg-base-100 w-96 shadow-sm">
+            <figure>
+              <img src="images/others/latest1.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p>
+                A card component has a figure, a body part, and inside body
+                there are title and actions parts
+              </p>
+              <div class="card-actions justify-start">
+                <button class="btn btn-primary bg-orange-50 border-orange-400 text-black">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- 3rd card -->
+          <div class="card bg-base-100 w-96 shadow-sm">
+            <figure>
+              <img src="images/others/latest3.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-gray-700">2021 Honda CBR500R</h2>
+              <p>
+                A card component has a figure, a body part, and inside body
+                there are title and actions parts
+              </p>
+              <div class="card-actions justify-start">
+                <button class="btn btn-primary bg-orange-500 border-orange-400">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- client Reviews -->
+
+    </main>
 
     <!-- footer -->
     <footer></footer>
