@@ -27,15 +27,19 @@
     </style>
   </head>
   <body class="font-poppins">
-    <!-- header -->
+    <!-- ##header -->
     <!-- max-w-screen-xl mx-auto -->
     <header class="md:container lg:max-w-screen-xl mx-auto mt-5">
       <nav>
         <div class="navbar">
           <div class="flex flex-1">
             <div class="dropdown">
-              <div tabindex="0" role="button" class="btn p-0 bg-transparent border-transparent shadow-none lg:hidden">
-                <img class="h-20" src="images/horse/horse-icon.png" alt="">
+              <div
+                tabindex="0"
+                role="button"
+                class="btn p-0 bg-transparent border-transparent shadow-none lg:hidden"
+              >
+                <img class="h-20" src="images/horse/horse-icon.png" alt="" />
                 <!-- <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5"
@@ -74,7 +78,10 @@
             </ul>
           </div>
           <div class="">
-            <a class="btn bg-red-800 hover:bg-orange-700 font-bold text-white ml-7">Login</a>
+            <a
+              class="btn bg-red-800 hover:bg-orange-700 font-bold text-white ml-7"
+              >Login</a
+            >
           </div>
         </div>
       </nav>
@@ -86,7 +93,7 @@
             <div class="flex gap-20 flex-col md:flex-row p-24">
               <!-- txt content -->
               <div class="space-y-4 flex-1 pl-10 flex justify-center flex-col">
-                <h1 class="font-bold text-4xl text-gray-700">
+                <h1 class="font-bold text-6xl text-gray-700">
                   Ride-on R15 V4 <br />
                   with Smile
                 </h1>
@@ -204,14 +211,14 @@
       </div>
     </header>
 
-    <!-- main section -->
+    <!-- ##Main section -->
     <main class="md:container mx-auto mt-5 lg:max-w-screen-xl">
-      <!-- feature bike -->
+      <!-- #feature bike -->
       <div class="mt-20 mb-20">
         <!-- txt part -->
         <div class="flex sm:flex-col items-center justify-center">
           <div>
-            <h1 class="font-bold text-3xl text-red-700">
+            <h1 class="font-bold text-5xl text-red-700">
               Feature Bikes in This Year
             </h1>
             <p class="flex pt-3 font-semibold text-gray-600 justify-center">
@@ -247,13 +254,13 @@
         </div>
       </div>
 
-      <!-- News Section -->
+      <!-- #News Section -->
 
       <div class="space-y-10">
         <!-- txt part -->
         <div class="flex sm:flex-col items-center justify-center">
           <div>
-            <h1 class="font-bold text-3xl text-gray-700">Latest News</h1>
+            <h1 class="font-bold text-5xl text-gray-700">Latest News</h1>
             <p class="flex pt-3 font-semibold text-gray-600 justify-center">
               latest news & updates
             </p>
@@ -261,8 +268,9 @@
         </div>
 
         <!-- card part -->
-        <div class=" mb-10 flex flex-col justify-center items-center md:flex-row gap-5 md:justify-between">
-
+        <div
+          class="mb-10 flex flex-col justify-center items-center md:flex-row gap-5 md:justify-between"
+        >
           <!-- 1st card -->
           <div class="card bg-base-100 w-96 shadow-sm">
             <figure>
@@ -275,7 +283,11 @@
                 there are title and actions parts
               </p>
               <div class="card-actions justify-start">
-                <button class="btn btn-primary bg-white border-orange-400 text-orange-500">Buy Now</button>
+                <button
+                  class="btn btn-primary bg-white border-orange-400 text-orange-500"
+                >
+                  Buy Now
+                </button>
               </div>
             </div>
           </div>
@@ -292,7 +304,11 @@
                 there are title and actions parts
               </p>
               <div class="card-actions justify-start">
-                <button class="btn btn-primary bg-orange-50 border-orange-400 text-black">Buy Now</button>
+                <button
+                  class="btn btn-primary bg-orange-50 border-orange-400 text-black"
+                >
+                  Buy Now
+                </button>
               </div>
             </div>
           </div>
@@ -308,18 +324,310 @@
                 there are title and actions parts
               </p>
               <div class="card-actions justify-start">
-                <button class="btn btn-primary bg-orange-500 border-orange-400">Buy Now</button>
+                <button class="btn btn-primary bg-orange-500 border-orange-400">
+                  Buy Now
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- client Reviews -->
+      <!-- #client Reviews -->
 
+      <div class="space-y-10 mt-30">
+        <!-- txt part -->
+        <div class="flex sm:flex-col items-center justify-center">
+          <div>
+            <h1 class="font-bold text-5xl">
+              Happy <span class="text-orange-400">Clients Say</span>
+            </h1>
+          </div>
+        </div>
+
+        <!-- card part -->
+        <div
+          class="mb-10 flex flex-col justify-center items-center md:flex-row gap-5 md:justify-between"
+        >
+          <!-- 1st card -->
+          <div class="card bg-base-100 w-96 shadow-sm">
+            <figure>
+              <div class="avatar pt-10">
+                <div class="w-34 rounded-full">
+                  <img src="images/me/mtch me.jpg" />
+                </div>
+              </div>
+            </figure>
+            <div class="card-body flex justify-center items-center">
+              <p class="text-center pt-3">
+                A card component has a figure, a body part, and inside body
+                there are title and actions parts
+              </p>
+              <!-- rating-1 -->
+              <div class="rating pt-1">
+                <input
+                  type="radio"
+                  name="rating-3"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="1 star"
+                  checked
+                />
+
+                <input
+                  type="radio"
+                  name="rating-3"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="2 star"
+                  checked="checked"
+                />
+
+                <input
+                  type="radio"
+                  name="rating-3"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="3 star"
+                  checked="checked"
+                />
+
+                <input
+                  type="radio"
+                  name="rating-1"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="4 star"
+                />
+                <input
+                  type="radio"
+                  name="rating-1"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="5 star"
+                />
+              </div>
+              <h2 class="card-title text-blue-500">Md. Selim Reza</h2>
+              <h3>Developer</h3>
+            </div>
+          </div>
+
+          <!-- 2nd card -->
+          <div class="card bg-base-100 w-96 shadow-sm">
+            <figure>
+              <div class="avatar pt-10">
+                <div class="w-34 rounded-full">
+                  <img
+                    class="object-contain scale-125"
+                    src="images/horse/horse-icon.png"
+                  />
+                </div>
+              </div>
+            </figure>
+            <div class="card-body flex justify-center items-center">
+              <p class="text-center pt-3">
+                A card component has a figure, a body part, and inside body
+                there are title and actions parts
+              </p>
+              <!-- rating-2 -->
+              <div class="rating pt-2">
+                <input
+                  type="radio"
+                  name="rating-1"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="1 star"
+                  checked
+                />
+
+                <input
+                  type="radio"
+                  name="rating-1"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="2 star"
+                  checked="checked"
+                />
+
+                <input
+                  type="radio"
+                  name="rating-1"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="3 star"
+                  checked="checked"
+                />
+
+                <input
+                  type="radio"
+                  name="rating-1"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="4 star"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="5 star"
+                />
+              </div>
+              <h2 class="card-title text-blue-500">Horsemen</h2>
+              <h3>Developer</h3>
+            </div>
+          </div>
+          <!-- 3rd card -->
+          <div class="card bg-base-100 w-96 shadow-sm">
+            <figure>
+              <div class="avatar pt-10">
+                <div class="w-34 rounded-full">
+                  <img src="images/me/bw me uni.jpeg" />
+                </div>
+              </div>
+            </figure>
+            <div class="card-body flex justify-center items-center">
+              <p class="text-center pt-3">
+                A card component has a figure, a body part, and inside body
+                there are title and actions parts
+              </p>
+
+              <!-- rating-3 -->
+              <div class="rating pt-3">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="1 star"
+                />
+
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="2 star"
+                  checked="checked"
+                />
+
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="3 star"
+                  checked="checked"
+                />
+
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="4 star"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="5 star"
+                />
+              </div>
+              <h2 class="card-title text-blue-500">Selim Reza</h2>
+              <h3>Developer</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- #FAQ section -->
+      <div class="mt-24 mb-24">
+        <!-- Heading part -->
+        <div>
+          <h1 class="text-5xl font-bold flex justify-center">
+            Frequently Asked <span class="text-orange-400">Questions</span>
+          </h1>
+        </div>
+        <!-- FAQ card -->
+        <div class="hero pt-10">
+          <div class="hero-content flex-col gap-20 lg:flex-row">
+            <div>
+              <img src="images/others/faq.png" class="max-w-sm rounded-lg hover:scale-90 duration-700" />
+            </div>
+
+            <!-- faq part by Accordion with arrow icon -->
+            <div class="space-y-7">
+              <div
+                class="collapse collapse-arrow bg-base-50 border hover:border-base-200"
+              >
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title font-semibold">
+                  What are the most important things I should know about riding
+                  a bike?
+                </div>
+                <div class="collapse-content text-sm">
+                  Safety First! Always obey the rules of the road. Obey all
+                  traffic signals, signs, and laws. Get in the mindset of
+                  “driving” your bike—not just “riding” your bike. This will
+                  help you be a more focused and legally compliant bike rider.
+                </div>
+              </div>
+              <div
+                class="collapse collapse-arrow bg-base-100 border hover:border-base-100"
+              >
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title font-semibold">
+                  How can I tell if my helmet is old and I need a new one?
+                </div>
+                <div class="collapse-content text-sm">
+                  Click on "Forgot Password" on the login page and follow the
+                  instructions sent to your email.
+                </div>
+              </div>
+              <div
+                class="collapse collapse-arrow bg-base-100 border hover:border-base-100"
+              >
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title font-semibold">
+                  My bike has been in storage is it safe to ride?
+                </div>
+                <div class="collapse-content text-sm">
+                  Go to "My Account" settings and select "Edit Profile" to make
+                  changes.
+                </div>
+              </div>
+              <div
+                class="collapse collapse-arrow bg-base-100 border hover:border-base-100"
+              >
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title font-semibold">
+                  How can I tell if my helmet is old and I need a new one?
+                </div>
+                <div class="collapse-content text-sm">
+                  Click on "Forgot Password" on the login page and follow the
+                  instructions sent to your email.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
-    <!-- footer -->
-    <footer></footer>
+    <!--## footer -->
+    <footer>
+      <footer
+        class="flex flex-col md:flex-row justify-between footer sm:footer-horizontal bg-neutral text-neutral-content p-10 items-center md:pl-44 md:pr-54"
+      >
+        <aside class="space-y-3">
+          <div class="flex gap-7">
+            <p class="hover:text-yellow-400">Download Now</p>
+            <p class="hover:text-yellow-400">License</p>
+          </div>
+          <div class="flex gap-7">
+            <p class="hover:text-yellow-400">About</p>
+            <p class="hover:text-yellow-400">Feature</p>
+            <p class="hover:text-yellow-400">Pricing</p>
+            <p class="hover:text-yellow-400">Careers</p>
+            <p class="hover:text-yellow-400">Help</p>
+          </div>
+          <div><p>© 2025 bike. All rights reserved to selim2066</p></div>
+        </aside>
+        <aside class="space-y-5">
+          <h2 class="font-bold text-xl hover:text-orange-400">Get The App</h2>
+          <img class="h-10" src="images/others/android.png" alt="" />
+          <img class="h-10" src="images/others/ios.png" alt="" />
+        </aside>
+      </footer>
+    </footer>
   </body>
 </html>
